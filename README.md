@@ -1,31 +1,34 @@
-# Easy Firewall #
+# Easy Firewall 日本語版 #
 
 ![alt text](imgs/icon32.png) `Fire`
 
-An UI to easily block an application by adding classic Windows Firewall rules.
+このアプリケーションは、シンプルなUIで簡単にWindowsファイアウォールのルール追加とアプリケーションのブロックを可能にします。
 
-The application is blocked on all profiles (private, public), any port, any protocol, any direction.
+このアプリケーションは、すべてのプロファイル(プライベート、パブリック)<br>
+任意のポートや任意のプロトコル、任意の方向をブロックできます。
 
 ![capture](imgs/capture.png)
 
-## Basic Features ##
+## 基本的な機能 ##
 
-- Block an application.
-- Unblock an application.
+- アプリケーションのブロック
+- アプリケーションのブロックを解除
 
-## How to ##
+## 使用方法 ##
 
-When you want to block an application, just run this application and choose the to-be-blocked-application from the `File > Block an application` menu.
-If you want to unblock it, just remove it from the list.
+操作は非常に簡単です。<br>
+アプリケーションのブロックを有効にするには、EasyFirewallを起動し「ファイル」->「新規でアプリケーションをブロック」のメニューからブロックを行なうアプリケーションを指定するだけです。<br>
+ブロックの解除は、リスト上の項目を削除する事で解除されます。
 
-## Compatibility ##
+## 互換性 ##
 
-Tested on Windows 10, probably work previouses or next releases 
+Windows 10/11で動作を確認済みです。<br>
+前のバージョンや次のバージョンでも動作する可能性があります。
 
-## Requirements ##
+## 必要事項 ##
 
-Requires the Windows Firewall to be enabled
+Windowsファイアウォールが有効化されている事が必須です。
 
-## Releases ##
+## リリース ##
 
-[Download latest release](https://github.com/pdulvp/easy-firewall/releases)
+[最新版のダウンロードはこちらです。](https://github.com/reindex-ot/easy-firewall-jp/releases)
