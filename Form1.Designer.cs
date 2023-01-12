@@ -137,8 +137,7 @@
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
             this.refreshToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.refreshToolStripMenuItem.Text = "更新";
-            this.refreshToolStripMenuItem.ToolTipText = "Sometimes when rules have been manually edited in Firewall settings, it may be go" +
-    "od to refresh them";
+            this.refreshToolStripMenuItem.ToolTipText = "ファイアウォールの設定を編集している場合、更新をクリックしてルールを更新する事を推奨します。";
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
