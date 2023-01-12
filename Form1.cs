@@ -69,12 +69,12 @@ namespace Pdulvp.EasyFirewall
             // Put it in "Details" mode, create a column so that "Details" mode will work,
             // and set its theme so it will look like the one used by Explorer.
             listView1.View = View.Details;
-            listView1.Columns.Add("Name", 400);
+            listView1.Columns.Add("名前", 400);
             WinIcons.SetWindowTheme(listView1.Handle, "Explorer", null);
 
-            listView1.Columns.Add("Folder", 200);
-            listView1.Columns.Add("Product Name", 100);
-            listView1.Columns.Add("Company", 100);
+            listView1.Columns.Add("フォルダー", 200);
+            listView1.Columns.Add("製品名", 100);
+            listView1.Columns.Add("会社名", 100);
 
             loadRules();
             GroupBy(CurrentGroup);
@@ -395,6 +395,25 @@ namespace Pdulvp.EasyFirewall
             System.Diagnostics.Process.Start("https://github.com/pdulvp/easy-firewall");
         }
 
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void advancedToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 
 }
